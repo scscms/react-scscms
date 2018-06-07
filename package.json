@@ -1,0 +1,51 @@
+{
+  "name": "react-scscms",
+  "version": "1.0.0",
+  "description": "scscms webpack4 React",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --config webpack.config.js --progress --watch",
+    "build": "webpack --mode production --config webpack.config.js --progress",
+    "start": "webpack-dev-server --mode development --config webpack.config.js --progress --watch --color"
+  },
+  "author": "shine",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.6.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "element-react": "^1.4.19",
+    "element-theme-default": "^1.4.13"
+  },
+  "maintainers": [
+    {
+      "name": "shine",
+      "email": "guangda1234@126.com"
+    }
+  ],
+  "browserslist": [
+    "ie >= 11",
+    "Chrome >= 50"
+  ]
+}

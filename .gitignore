@@ -1,0 +1,8 @@
+# Dir
+node_modules/
+dist/
+.idea/
+.DS_Store
+
+# File
+package-lock.json
